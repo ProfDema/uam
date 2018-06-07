@@ -1,0 +1,2 @@
+sqam/examples/submissions/correct/A1
+sqam/examples/submissions/errors/A1
