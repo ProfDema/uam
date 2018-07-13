@@ -22,7 +22,7 @@ timeout_operation = lambda: open('timedout', 'w').close()
 students_fname = os.path.join('pam', 'examples', 'directories.txt')
 
 # absolute path to uam
-path_to_uam = 'YOUR_PATH_TO_UAM'
+path_to_uam = '/Users/donaldkajo/Desktop/UAM/uam'
 
 # Shell command to be performed before executing tests in a directory or None.
 # -- This command will be invoked from within the student's directory!
@@ -42,8 +42,8 @@ test_cmd = [('%s result.json test_asst.py test_2_asst.py' %
 
 # Shell command to be performed after executing tests in a student's submission
 #   directory or None.
-postamble_cmd = 'rm -rf __pycache__ test_asst.py test_2_asst.py pep8.py'
-
+#postamble_cmd = 'rm -rf __pycache__ test_asst.py test_2_asst.py pep8.py'
+postamble_cmd = None
 
 # ---- AGGREGATION AND TEMPLATING ---- #
 
