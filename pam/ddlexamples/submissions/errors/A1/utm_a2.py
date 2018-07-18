@@ -228,12 +228,10 @@ class TestA1(unittest.TestCase):
         cursor = self.load_sql(cursor, query)
         actual_result = cursor.fetchall()
         self.assertEqual(expected_result, actual_result)
-        print("test finished")
 
     def tearDown(self):
         self.testdata.get_cursor().close()
         self.testdata.get_connection().close()
-        print("teardown done")
 
 if __name__ == '__main__':
     unittest.main()
