@@ -1,0 +1,22 @@
+{   "DatabaseType": "PostGreSQl",
+    "pathToUam": "/Users/donaldkajo/Desktop/UAM/uam",
+    "assignmetnName" : "a1",
+    "schemaName" : "a1",
+    "dbname" : "uam",
+    "tables" : {"Performs": ["('BASE TABLE', )"]},
+    "attributes" : {"Performs": {"vID": ["VARCHAR"], "aID": ["VARCHAR"]}},
+    "constraints": {"Performs": {}},
+    "indexes": {"Performs": {}},
+    "triggers": {"Performs": {}},
+    "user" : "ilirdema",
+    "password" : "westmall",
+    "questions" : {
+                    "q1.sql" : ["d1.sql", "d2.sql"],
+                    "q2.sql" : ["d1.sql", "d3.sql"]
+    },
+     "solutions" : {
+         "s1.sql" : "q1.sql",
+         "s2.sql" : "q2.sql"
+         },
+    "ExistingUnittests": ["unittest1.py"]
+}
