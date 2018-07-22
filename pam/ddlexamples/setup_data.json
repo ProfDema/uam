@@ -3,11 +3,13 @@
     "assignmetnName" : "a1",
     "schemaName" : "a1",
     "dbname" : "uam",
-    "tables" : {"Performs": ["('BASE TABLE', )"]},
-    "attributes" : {"Performs": {"vID": ["VARCHAR"], "aID": ["VARCHAR"]}},
-    "constraints": {"Performs": {}},
-    "indexes": {"Performs": {}},
-    "triggers": {"Performs": {}},
+    "databaseobjects" : {
+        "tables" : {"Performs": ["('BASE TABLE', )"]},
+        "attributes" : {"Performs": {"vID": ["VARCHAR"], "aID": ["VARCHAR"]}},
+        "constraints": {"Performs": {}},
+        "indexes": {"Performs": {}},
+        "triggers": {"Performs": {}}
+    },
     "user" : "ilirdema",
     "password" : "westmall",
     "questions" : {
