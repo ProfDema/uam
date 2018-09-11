@@ -1,3 +1,0 @@
-pam/examples/submissions/correct/A1,correct
-pam/examples/submissions/errors/A1,errors
-

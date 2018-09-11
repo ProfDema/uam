@@ -1,4 +1,0 @@
-pam/examples/submissions/correct/A1
-pam/examples/submissions/errors/A1
-
-
