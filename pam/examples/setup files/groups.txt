@@ -1,0 +1,48 @@
+group_0061, group_0061, student1, student2
+group_0095, group_0095, student3, student4
+student5, student5, student5
+group_0066, group_0066, student6, student7
+student8, student8, student8
+group_0069, group_0069, student9, student10
+group_0067, group_0067, student11, student12
+group_0093, group_0093, student13, student14
+student15, student15, student15
+student16, student16, student16
+student17, student17, student17
+student18, student18, student18
+student19, student19, student19
+student20, student20, student20
+group_0089, group_0089, student21, student22
+student23, student23, student23
+student24, student24, student24
+group_0073, group_0073, student25, student26
+group_0087, group_0087, student27, student28
+group_0080, group_0080, student29, student30
+group_0074, group_0074, student31, student32
+group_0075, group_0075, student33, student34
+group_0081, group_0081, student35, student36
+group_0086, group_0086, student37, student38
+group_0072, group_0072, student39, student40
+group_0088, group_0088, student41, student42
+student43, student43, student43
+group_0091, group_0091, student44, student45
+group_0062, group_0062, student46, student47
+group_0096, group_0096, student48, student49
+group_0063, group_0063, student50, student51
+group_0064, group_0064, student52, student53
+group_0090, group_0090, student54, student55
+student56, student56, student56
+student57, student57, student57
+student58, student58, student58
+student60, student60, student60
+group_0079, group_0079, student61, student62
+student63, student63, student63
+group_0077, group_0077, student64, student65
+group_0070, group_0070, student66, student67
+student68, student68, student68
+student69, student69, student69
+group_0085, group_0085, student70, student71
+group_0071, group_0071, student72, student73
+group_0082, group_0082, student74, student75
+group_0078, group_0078, student76, student77
+student78, student78, student78

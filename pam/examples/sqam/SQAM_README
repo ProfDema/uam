@@ -1,0 +1,70 @@
+I. GRADE.
+
+1) Student submission(s).
+
+You need a file that lists all directories containing student
+submissions.  The demo contains two "student" submissions, from
+students "student1", "student2" ("group_0061"), "student5", 
+(see directory pam/examples/submissions). 
+Each submission in our example is in a
+folder named A1.  Therefore, you need the file (see directories.txt)
+with the following contents:
+
+pam/examples/submissions/group_0061/A1
+pam/examples/submissions/student5/A1
+
+Notice that all paths are relative to the location of test_runner.py.
+
+The content of each A1 subfolder consists of student's solutions
+for various SQL/DDL tasks. Please note the final result table for 
+each query must be cleared before a sequence os SQL queries starts,
+and also the last statement for each solution must be a select statement
+intended to produce the required result. A sample is below:
+
+File name : q1.sql
+
+TRUNCATE query1;
+-- Various SQL/DDL statements intented to populate table query1
+-- (basically student's solution)
+SELECT * FROM query1;
+
+(See q1.sql,...,q10.sql in each A1 subfolder)
+
+2) SQL and DDL file(s).
+
+You need DDL required to create the test database ("a2.ddl" in this 
+example), SQL required to add test data ("a2data.sql" in this example),
+and the solution files for each query ("q1sol.sql",...,"q10sol.sql"
+in this example).
+
+
+See pam/examples/sqam/a2.ddl,
+    pam/examples/sqam/a2data.sql,
+    pam/examples/sqam/q1sol.sql,
+    ...
+    pam/examples/sqam/q10sol.sql.
+
+
+3) Configure test_runner.py.
+
+See pam/examples/config.py.
+
+Note the actual set of unit tests is what is generated
+by sqam_preprocessor.
+
+You need to put config.py (or a link to config.py) in the same
+directory as test_runner.py.
+
+4) Finally,
+
+python3 test_runner.py
+
+If everything went well, you should have a .json file in each student
+submission directory.
+
+II. Aggregatiion and further processing: see pam README.
+
+
+SUPPORT:
+
+Please send comments, feedback and bugs to donald.kajo@mail.utoronto.ca and ilir.dema@mail.utoronto.ca.
