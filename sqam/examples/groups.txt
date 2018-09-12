@@ -1,2 +1,0 @@
-correct,correct,correct,freeloader
-errors,errors,errors

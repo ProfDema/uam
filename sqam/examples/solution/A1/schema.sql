@@ -1,9 +1,0 @@
-DROP SCHEMA IF EXISTS a1;
-CREATE SCHEMA a1;
-SET search_path TO a1;
-
-CREATE TABLE product(
-   id INTEGER PRIMARY KEY,
-   description VARCHAR NOT NULL
-);
-
